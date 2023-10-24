@@ -13,9 +13,6 @@ A tibble with 10,692 rows and 4 variables:
 \item{pop}{population estimative}
 }
 }
-\source{
-\url{http://tabnet.datasus.gov.br/cgi/deftohtm.exe?popsvs/cnv/popbr.def}
-}
 \usage{
 uf_female_pop
 }
@@ -24,7 +21,5 @@ A dataset containing female population estimates for Brazilian UFs ("Unidades Fe
 }
 \details{
 The estimates were calculated by DataSUS (Brazilian Ministry of Health), manually downloaded from DataSUS website, and organized as a tibble.
-
-More details about the estimation methodology may be found here: \url{http://tabnet.datasus.gov.br/cgi/POPSVS/NT-POPULACAO-RESIDENTE-2000-2021.PDF}
 }
 \keyword{datasets}

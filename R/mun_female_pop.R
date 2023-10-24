@@ -4,8 +4,6 @@
 #'
 #' The estimates were calculated by DataSUS (Brazilian Ministry of Health), manually downloaded from DataSUS website, and organized as a tibble.
 #'
-#' More details about the estimation methodology may be found here: \url{http://tabnet.datasus.gov.br/cgi/POPSVS/NT-POPULACAO-RESIDENTE-2000-2021.PDF}
-#'
 #' @format A tibble with 2,216,016 rows and 4 variables:
 #' \describe{
 #'   \item{mun}{municipality 6 digits code}
@@ -13,5 +11,4 @@
 #'   \item{age_group}{age group}
 #'   \item{pop}{population estimative}
 #' }
-#' @source \url{http://tabnet.datasus.gov.br/cgi/deftohtm.exe?popsvs/cnv/popbr.def}
 "mun_female_pop"
