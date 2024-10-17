@@ -1,23 +1,26 @@
 Package: brpop
 Title: Brazilian Population Estimatives
-Version: 0.3.0
+Version: 0.5.0
 Authors@R: 
-    person("Raphael", "Saldanha", , "raphael.saldanha@icict.fiocruz.br", role = c("aut", "cre"),
+    person("Raphael", "Saldanha", , "raphael.de-freitas-saldanha@inria.fr", role = c("aut", "cre"),
            comment = c(ORCID = "0000-0003-0652-8466"))
-Description: Datasets with yearly (2000 to 2021) Brazilian population estimates from DataSUS/Brazilian Health Ministry, aggregated by state, municipality, sex, and age groups. The data in this package is manually downloaded from the DataSUS website and converted to tibbles.
+Description: Functions to handle and aggregate population estimates for Brazilian municipalities by sex and age groups.
 License: MIT + file LICENSE
 Encoding: UTF-8
-RoxygenNote: 7.2.3
+RoxygenNote: 7.3.2
 Depends: R (>= 2.10)
 LazyData: true
 LazyDataCompression: xz
-Suggests: testthat (>= 3.0.0)
+Suggests: testthat (>= 3.0.0), ggplot2, scales
 Config/testthat/edition: 3
-Imports: dplyr, future, magrittr, multidplyr, rlang
+Imports: checkmate, data.table, dplyr, dtplyr, magrittr, rlang, tibble,
+        zendown
 URL: https://rfsaldanha.github.io/brpop/
+BugReports: https://github.com/rfsaldanha/brpop/issues
+Config/Needs/website: rmarkdown
 NeedsCompilation: no
-Packaged: 2023-10-24 13:00:29 UTC; raphael
+Packaged: 2024-10-17 16:05:49 UTC; raphaelsaldanha
 Author: Raphael Saldanha [aut, cre] (<https://orcid.org/0000-0003-0652-8466>)
-Maintainer: Raphael Saldanha <raphael.saldanha@icict.fiocruz.br>
+Maintainer: Raphael Saldanha <raphael.de-freitas-saldanha@inria.fr>
 Repository: CRAN
-Date/Publication: 2023-10-24 13:20:02 UTC
+Date/Publication: 2024-10-17 16:50:05 UTC
