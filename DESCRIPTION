@@ -1,6 +1,6 @@
 Package: brpop
 Title: Brazilian Population Estimatives
-Version: 0.6.0
+Version: 0.6.2
 Authors@R: 
     person("Raphael", "Saldanha", , "raphael.saldanha@fiocruz.br", role = c("aut", "cre"),
            comment = c(ORCID = "0000-0003-0652-8466"))
@@ -19,8 +19,9 @@ URL: https://rfsaldanha.github.io/brpop/
 BugReports: https://github.com/rfsaldanha/brpop/issues
 Config/Needs/website: rmarkdown
 NeedsCompilation: no
-Packaged: 2025-02-24 13:40:53 UTC; raphaelsaldanha
-Author: Raphael Saldanha [aut, cre] (<https://orcid.org/0000-0003-0652-8466>)
+Packaged: 2025-09-02 12:16:35 UTC; raphaelsaldanha
+Author: Raphael Saldanha [aut, cre] (ORCID:
+    <https://orcid.org/0000-0003-0652-8466>)
 Maintainer: Raphael Saldanha <raphael.saldanha@fiocruz.br>
 Repository: CRAN
-Date/Publication: 2025-02-24 14:30:06 UTC
+Date/Publication: 2025-09-02 12:50:07 UTC
